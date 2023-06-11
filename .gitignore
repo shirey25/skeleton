@@ -3,9 +3,7 @@ node_modules
 build
 .svelte-kit
 dist
-.env
-.env.*
-!.env.example
+
 coverage
 .temp
 src/lib/tailwind/generated
