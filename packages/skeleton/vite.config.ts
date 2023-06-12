@@ -1,6 +1,10 @@
+
+
 import { sveltekit } from '@sveltejs/kit/vite';
 import type { UserConfig } from 'vite';
 import { configDefaults } from 'vitest/config';
+
+
 
 /** @type {import('vite').UserConfig} */
 const config: UserConfig = {
