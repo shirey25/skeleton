@@ -6,18 +6,23 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import {AppShell, AppBar} from '../modules.js'
-
-<AppShell> <AppBar /> <slot /> </AppShell>
-
+	import {modules} from '../modules.js'
 
 </script>
 
+<svelte:head> </svelte:head>	
+	<title>Home</title>
+	<AppShell>
+		<AppBar />
+
+	<slot></slot>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+		<footer></footer>
+	</AppShell>
 
 
-<style>
-	/* This is where you can put any CSS that is specific to this page */	
 </style>
-
-
-
-<slot />

@@ -9,6 +9,7 @@
 
 	export let slug: string;
 	export let chat: Chat | undefined = undefined;
+</script>    
 
 	$: if ($chatStore[slug]) {
 		// If this is used in the "Shared chat" view, the chat is not in the local store.
@@ -16,7 +17,6 @@
 		chat = $chatStore[slug];
 	}
 
-</script>
 
 // Autoscroll: https://svelte.dev/tutorial/update
 	let div: HTMLElement | null | undefined;
