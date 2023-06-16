@@ -5,6 +5,19 @@
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
+	import {AppShell, AppBar} from '../modules.js'
+
+		<AppShell> 
+
+
 </script>
+
+
+
+<style>
+	/* This is where you can put any CSS that is specific to this page */	
+</style>
+
+
 
 <slot />
