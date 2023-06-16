@@ -7,7 +7,7 @@
 	import '../app.postcss';
 	import {AppShell, AppBar} from '../modules.js'
 
-		<AppShell> 
+<AppShell> <AppBar /> <slot /> </AppShell>
 
 
 </script>
