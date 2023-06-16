@@ -33,8 +33,10 @@ export {
 	// Svelte Actions
 	tableInteraction,
 	tableA11y
-} from './utilities/DataTable/DataTable.js';
-// Lightswitch
+} 
+
+	//from './utilities/DataTable/DataTable.js';
+	// Lightswitch
 export {
 	// Stores
 	modeOsPrefers,
