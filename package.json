@@ -1,5 +1,5 @@
 {
-  "name": "skeleton",
+  "name": "pnpm",
   "version": "1.0.0",
   "description": "monorepo for @skeletonlabs/skeleton",
   "private": true,
@@ -54,5 +54,5 @@
   },
   "type": "module",
   "main": "index.js",
-  "author": ""
+  "author": "corey SHirey"
 }
