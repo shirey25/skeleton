@@ -5,7 +5,7 @@
 			"..",
 			"./types"
 		],
-		"verbatimModuleSyntax": "boolean",
+		"verbatimModuleSyntax": true,
 		"isolatedModules": true,
 		"preserveValueImports": false,
 		"lib": [
