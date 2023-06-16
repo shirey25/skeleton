@@ -2,15 +2,14 @@
 
 // Types ---
 
-export type { AutocompleteOption } from './components/Autocomplete/types.js';
-export type { ConicStop } from './components/ConicGradient/types.js';
-export type { DrawerSettings } from './utilities/Drawer/types.js';
-export type { ModalSettings, ModalComponent } from './utilities/Modal/types.js';
-export type { ToastSettings } from './utilities/Toast/types.js';
-export type { TableSource } from './components/Table/types.js';
-export type { PaginationSettings } from './components/Paginator/types.js';
-export type { PopupSettings } from './utilities/Popup/types.js';
-
+export  { AutocompleteOption } from './components/Autocomplete/types.js';
+export 	{ ConicStop } from './components/ConicGradient/types.js';
+export  { DrawerSettings } from './utilities/Drawer/types.js';
+export  { ModalSettings, ModalComponent } from './utilities/Modal/types.js';
+export { ToastSettings } from './utilities/Toast/types.js';
+export { TableSource } from './components/Table/types.js';
+export { PaginationSettings } from './components/Paginator/types.js';
+export { PopupSettings } from './utilities/Popup/types.js';
 // This type alias is to identify CSS classes within component props, which enables Tailwind IntelliSense
 export type CssClasses = string;
 
@@ -27,8 +26,8 @@ export { toastStore } from './utilities/Toast/stores.js';
 // Data Table
 export {
 	// Types
-	type DataTableModel,
-	type DataTableOptions,
+	class = DataTableModel,
+	class = DataTableOptions,
 	// Utilities
 	createDataTableStore,
 	dataTableHandler,
