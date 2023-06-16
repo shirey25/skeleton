@@ -1,4 +1,4 @@
 <script>
-	import 
+	import {modules}
 
 </script>
