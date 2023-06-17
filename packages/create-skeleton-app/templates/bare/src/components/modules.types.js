@@ -26,7 +26,7 @@ export { toastStore } from './utilities/Toast/stores.js';
 // Data Table
 export {
 	// Types
-	<DataTableModel> class = 'DataTableOptions' </DataTableModel>,
+	DataTableModel class = 'DataTableOptions',
 	// Utilities
 	createDataTableStore,
 	dataTableHandler,
