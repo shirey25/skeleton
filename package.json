@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "skeleton",
+=======
+  "name": "pnpm",
+>>>>>>> 75e0f71203a4bc7d2a1068a6569ea5d66b51bd85
   "version": "1.0.0",
   "description": "monorepo for @skeletonlabs/skeleton",
   "private": true,
@@ -44,7 +48,11 @@
   ],
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+<<<<<<< HEAD
     "@vitejs/changesets-changelog-github-compact": "^1.1.0",
+=======
+    "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+>>>>>>> 75e0f71203a4bc7d2a1068a6569ea5d66b51bd85
     "cspell": "^6.31.1",
     "shelljs": "^0.8.5"
   },
@@ -54,5 +62,9 @@
   },
   "type": "module",
   "main": "index.js",
+<<<<<<< HEAD
   "author": "cs"
+=======
+  "author": "corey SHirey"
+>>>>>>> 75e0f71203a4bc7d2a1068a6569ea5d66b51bd85
 }
